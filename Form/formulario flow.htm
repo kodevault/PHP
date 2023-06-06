@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <form action="paquito.php" method="post" enctype="text/plain">
+
+        <p><b>Nombre: </b><input type="text" name="nombre" size="25" maxlength="50"> </p>
+        <p><b>Apellidos: </b><input type="text" name="apellidos" size="35" maxlength="100"></p>
+        <p><b>Correo electrónico: </b><input type="text" value="@gmail.com" name="correo" size="40" maxlength="100"> </p>
+        <p><b>Población: </b><input type="text" name="poblacion" size="15" maxlength="50"> </p>
+        <p><b>Provincia: </b><input type="text" name="provincia" size="15" maxlength="50">  </p>
+
+
+                <p><b>Edad:</b></p>
+                    <input type="radio" name="edad" value="020" checked> 0-20
+                    <br>
+                    <input type="radio" name="edad" value="2040"> 20-40
+                    <br>
+                    <input type="radio" name="edad" value="4060"> 40-60
+                    <br>
+                    <input type="radio" name="edad" value="60100"> 60-100
+
+                <p><b>Como nos conociste?</b></p>
+                    <input type="checkbox" name="conocer">
+                    A traves de un amigo.
+                    <br>
+                    <input type="checkbox" name="conocer">
+                    A traves de un buscador.
+                    <br>
+                    <input type="checkbox" name="conocer">
+                    Navegando por la red.
+                    <br>
+                    <input type="checkbox" name="conocer">
+                    Otros
+
+        <p><b>Opinión sobre nuestra pagina web</b></p>
+        <br>
+        <textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea>
+        <br>
+        <br>
+        <table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>
+                    <div align="center">
+                        <input type="submit" value="Enviar formulario">
+                    </div>
+                </td>
+                <td>
+                    <div align="center">
+                        <input type="Reset" value="Borrar formulario">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

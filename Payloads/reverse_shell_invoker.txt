@@ -1,0 +1,3 @@
+nc -v -n -l -p 4444
+
+lanzarlo desde la shell en nuestra maquina para estar escuchando cuando la shell nos venga a buscar desde la maquina objetivo
